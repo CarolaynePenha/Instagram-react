@@ -1,0 +1,37 @@
+export default function NavBar(props) {
+  const icons = [
+    <ion-icon name="paper-plane-outline"></ion-icon>,
+    <ion-icon name="compass-outline"></ion-icon>,
+    <ion-icon name="heart-outline"></ion-icon>,
+    <ion-icon name="person-outline"></ion-icon>,
+  ];
+  return (
+    <div class="navbar">
+      <div class="container">
+        <div class="logo">
+          <ion-icon name="logo-instagram"></ion-icon>
+          <div class="separador"></div>
+          <img src={props.img} />
+        </div>
+
+        <div class="logo-mobile">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </div>
+
+        <div class="instagram-mobile">
+          <img src={props.imgMobile} />
+        </div>
+
+        <div class="pesquisa">
+          <input type="text" placeholder="Pesquisar" />
+        </div>
+
+        <div class="icones">{icons}</div>
+
+        <div class="icones-mobile">
+          <ion-icon name="paper-plane-outline"></ion-icon>
+        </div>
+      </div>
+    </div>
+  );
+}
