@@ -19,7 +19,7 @@ export default function NavBar(props) {
         </div>
 
         <div class="instagram-mobile">
-          <img src={props.imgMobile} />
+          <img src={props.img} />
         </div>
 
         <div class="pesquisa">

@@ -7,7 +7,7 @@ import FundoMobile from "./FundoMobile";
 function App() {
   return (
     <>
-      <NavBar />
+      <NavBar img="./img/logo.png" />
       <div class="corpo">
         <div class="esquerda">
           <Stories />
